@@ -12,7 +12,7 @@ file_path = filedialog.askopenfilename(filetypes=[(("Picture File","*.jpg;*.png;
 img=Image.open(file_path)
 file_names=str(int(time.time()))
 print(file_names)
-img.save("path/image_name.png")  
+img.save("path/image_name.png")  #specify the path in 'path'
 tkimage=ImageTk.PhotoImage(img)
 root.mainloop()
 

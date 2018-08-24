@@ -18,7 +18,7 @@ root.mainloop()
 
     
     
-    img = Image.open(file_path)
+   
     img.save("C:/Users/9911v/PycharmProjects/Facial Emotion Detector/abc.png")
     tkimage = ImageTk.PhotoImage(img)
     root1.mainloop()

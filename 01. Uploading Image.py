@@ -14,8 +14,3 @@ img.save("path/image_name.png")  #specify the path in 'path' and image will be s
 tkimage=ImageTk.PhotoImage(img)
 root.mainloop()
 
-    
-    
-   
-
-    root1.mainloop()

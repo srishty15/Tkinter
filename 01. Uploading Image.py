@@ -17,6 +17,5 @@ root.mainloop()
     
     
    
- 
-    tkimage = ImageTk.PhotoImage(img)
+
     root1.mainloop()

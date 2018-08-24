@@ -8,7 +8,7 @@ from PIL import ImageTk
 
 root = Tk()
 root.withdraw()
-file_path = filedialog.askopenfilename(filetypes=[(("Picture File","*.jpg;*.png;*.gif"))])
+file_path = filedialog.askopenfilename(filetypes=[(("Picture File","*.jpg;*.png;*.gif"))])  #opens only JPG, PNG or GIF images
 img=Image.open(file_path)
 file_names=str(int(time.time()))
 print(file_names)
